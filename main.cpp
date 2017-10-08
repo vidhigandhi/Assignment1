@@ -43,6 +43,10 @@ int main(int argc, char** argv) {
     simulatedWeapon(weapon, armor);
     delete(weapon);
 
+    weapon = weaponFactory::getInstance()->getWeapon("crazy random sword");
+    simulatedWeapon(weapon, armor);
+    delete(weapon);
+
     return 0;
 }
 
