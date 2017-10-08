@@ -1,0 +1,77 @@
+VIDHI GANDHI 
+CEN 4020 
+
+5.a.
+
+Counting objects: 7, done.
+Delta compression using up to 56 threads. 
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 522 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To git@github.com:vidhigandhi/Assignment1.git
+   bc8b698..c45caf5  master -> master
+
+
+5.b.
+
+A total of 9 commits made in all. 
+$ git log -> command used to find this total number.
+
+5.c.
+
+.gitignore was last modified on September 27 [Wed Sep 27 16:03:55 2017].
+Command used -> $ git log --follow .gitignore
+
+5.d.
+
+The IDs used to merge the changes:
+commit 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+commit cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+Command used -> $ git log --merge
+
+5.e.
+
+Two reasons for using branches in a git repository:
+-- It ensures that the code changes are verified before delivering them to other developers
+-- It isolates development activities among the team 
+
+5.f.
+
+'git log' shows only the commits that have been made thus far for a repository which is the 
+developer's current working directory. But, 'git status'shows the working tree status -- It displays the 
+paths that have differences between the index file and the current HEAD commit, paths that have 
+differences between the working tree and index file, and paths in the working tree that are not being 
+tracked by git.   
+
+5.g.
+
+Command to track Weapon.h -> $ git log Weapon.h
+
+5.h.
+
+Command to track word "file" -> $ git log --grep="file" 
+
+5.h.I. 
+
+Inheritance refers to a feature of object oriented programming in which a class/object can 
+inherit behaviors and features from more than one superclass. For instance, if object/class 'A' 
+is based on another object/class 'B' then, A would  acquire all the properties that are within B. 
+Additionally,A can be modified to include more properties which would in turn make it unique but still based on B.
+Here, A is the derived class while B, the class that A is based on is called the Base class.
+
+5.h.II.
+
+Polymorphism means "many forms". In obejct orieted porgramming polymorphism is the ability to associate different 
+specific behaviors with a single generic notation. It gives an entity such as a variable, a function, or an object to have 
+more than one form. It can static (method overloading) or dynamic (through inheritance/ virtual member functions). 
+Example of polymorphism: if there is a base class called 'Bird' and it implements a generic fly() function. 
+This fly() function will be implemented in a different way if it were inside a Parrot() sub-class and if it would have 
+no major functionality inside the Penguin class. 
+
+5.h.III.
+
+Encapsulation refers to combining lower level elements to form a higher-level entity. It helps to keep the data and 
+functions safe from any developer/class/function/user from modifying it. The use of public, private, and protected entities
+enforce encapsulation. For instance, a private data variable may only be modified within the scope of the class it is 
+defined in. This prevents this variable from being changed by other classes that may have repercussions leading to bugs.   
