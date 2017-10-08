@@ -39,7 +39,7 @@ Two reasons for using branches in a git repository:
 5.f.
 
 'git log' shows only the commits that have been made thus far for a repository which is the 
-developer's current working directory. But, 'git status'shows the working tree status -- It displays the 
+developer's current working directory. But, 'git status' shows the working tree status -- It displays the 
 paths that have differences between the index file and the current HEAD commit, paths that have 
 differences between the working tree and index file, and paths in the working tree that are not being 
 tracked by git.   
@@ -57,16 +57,16 @@ Command to track word "file" -> $ git log --grep="file"
 Inheritance refers to a feature of object oriented programming in which a class/object can 
 inherit behaviors and features from more than one superclass. For instance, if object/class 'A' 
 is based on another object/class 'B' then, A would  acquire all the properties that are within B. 
-Additionally,A can be modified to include more properties which would in turn make it unique but still based on B.
-Here, A is the derived class while B, the class that A is based on is called the Base class.
+Additionally, 'A' can be modified to include more properties which would in turn make it unique but still based on B.
+Here, class 'A' is the derived class while class 'B', the class that 'A' is based on, is called the Base class.
 
 5.h.II.
 
-Polymorphism means "many forms". In obejct orieted porgramming polymorphism is the ability to associate different 
+Polymorphism means "many forms". In obejct oriented programming polymorphism is the ability to associate different 
 specific behaviors with a single generic notation. It gives an entity such as a variable, a function, or an object to have 
-more than one form. It can static (method overloading) or dynamic (through inheritance/ virtual member functions). 
+more than one form. It can be static (method overloading) or dynamic (through inheritance/ virtual member functions). 
 Example of polymorphism: if there is a base class called 'Bird' and it implements a generic fly() function. 
-This fly() function will be implemented in a different way if it were inside a Parrot() sub-class and if it would have 
+This fly() function will be implemented in a different way if it were inside a Parrot() sub-class, but it would have 
 no major functionality inside the Penguin class. 
 
 5.h.III.
