@@ -8,7 +8,7 @@
 #include <string>
 #include "Weapon.h"
 
-#ifndef SIMPLEAE_H
+#ifndef SIMPLEAXE_H
 #define SIMPLEAXE_H
 
 /* Defines the specification of a simple axe where:
