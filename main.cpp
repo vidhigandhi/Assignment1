@@ -47,6 +47,10 @@ int main(int argc, char** argv) {
     simulatedWeapon(weapon, armor);
     delete(weapon);
 
+    weapon = weaponFactory::getInstance()->getWeapon("pocket knife");
+    simulatedWeapon(weapon, armor);
+    delete(weapon);
+
     return 0;
 }
 
