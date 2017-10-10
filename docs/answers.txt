@@ -75,3 +75,12 @@ Encapsulation refers to combining lower level elements to form a higher-level en
 functions safe from any developer/class/function/user from modifying it. The use of public, private, and protected entities
 enforce encapsulation. For instance, a private data variable may only be modified within the scope of the class it is 
 defined in. This prevents this variable from being changed by other classes that may have repercussions leading to bugs.   
+
+7.
+
+RoleGame is a prototype of polymorphism and encapsulation. 
+All classes inhert from the superclass 'Weapon'. The classes that inherit from the superclass however have some variable
+that is local to that derived class or have some function with return type that cannot be 
+easily manipulated by the end user - this is encapsulation. 
+RoleGame entails polymorphism since it outputs all the data from various weapons in the same way despite each weapon subclass 
+having different implementation.  
