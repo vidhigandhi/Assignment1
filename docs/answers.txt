@@ -28,7 +28,7 @@ Command used -> $ git log --follow .gitignore
 The IDs used to merge the changes:
 commit 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
 commit cb30d72a3d94c108f393c163a35c1cc9bf18ffca
-Command used -> $ git log --merge
+Command used -> $ git log --merges
 
 5.e.
 
