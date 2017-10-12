@@ -20,7 +20,7 @@ $ git log -> command used to find this total number.
 
 5.c.
 
-.gitignore was last modified on September 27 [Wed Sep 27 16:03:55 2017].
+.gitignore was last modified on September 27 [Wed Sep 27 16:32:42 2017].
 Command used -> $ git log --follow .gitignore
 
 5.d.
@@ -62,7 +62,7 @@ Here, class 'A' is the derived class while class 'B', the class that 'A' is base
 
 5.h.II.
 
-Polymorphism means "many forms". In obejct oriented programming polymorphism is the ability to associate different 
+Polymorphism means "many forms". In object oriented programming polymorphism is the ability to associate different 
 specific behaviors with a single generic notation. It gives an entity such as a variable, a function, or an object to have 
 more than one form. It can be static (method overloading) or dynamic (through inheritance/ virtual member functions). 
 Example of polymorphism: if there is a base class called 'Bird' and it implements a generic fly() function. 
@@ -79,7 +79,7 @@ defined in. This prevents this variable from being changed by other classes that
 7.
 
 RoleGame is a prototype of polymorphism and encapsulation. 
-All classes inhert from the superclass 'Weapon'. The classes that inherit from the superclass however have some variable
+All classes inherit from the superclass 'Weapon'. The classes that inherit from the superclass however have some variable
 that is local to that derived class or have some function with return type that cannot be 
 easily manipulated by the end user - this is encapsulation. 
 RoleGame entails polymorphism since it outputs all the data from various weapons in the same way despite each weapon subclass 

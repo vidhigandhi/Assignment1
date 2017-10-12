@@ -7,6 +7,8 @@
 
 #include <string>
 #include "Weapon.h"
+#include <cstlib>
+#include <time.h>
 
 #ifndef POCKETKNIFE_H
 #define POCKETKNIFE_H
