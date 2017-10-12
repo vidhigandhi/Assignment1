@@ -20,9 +20,11 @@
 class PocketKnife : public Weapon 
 {
 	public:
-		PocketKnife() : Weapon ("Pocket Knife", std::rand()% 100 + 1) {}
+		PocketKnife() : Weapon ("Pocket Knife", hitPoint()) {}
 		virtual ~PocketKnife() {};
 		virtual double hit (double armor);
+	private:
+		double hitPoint();
 };
 
 

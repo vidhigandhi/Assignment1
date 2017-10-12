@@ -20,3 +20,9 @@ double PocketKnife::hit (double armor)
 
 	return damage; 
 }
+
+double PocketKnife::hitPoint()
+{
+	std::srand(time(0));
+	return std::rand() % 100 + 1;
+}
