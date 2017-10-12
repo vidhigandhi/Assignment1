@@ -15,3 +15,9 @@ double CrazyRandomSword::hit (double armor)
 
 	return damage;
 }
+
+double CrazyRandomSword::hitPoint()
+{
+	std::srand(time(0));
+	return rand() % 100 + 10;
+}
